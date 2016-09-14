@@ -12,14 +12,20 @@ _2 TILs and not really counting..._
 ### Categories
 
 * [sql](#sql)
-* [python] (#python)
+* [python](#python)
 
 
 
 ---
 
 ### SQL
+
+[Latest Date Record](sql/latest date record.md)
+[Time Difference](sql/time difference.md)
+
 ### python
+
+[Regular Expression Iteration](python/regular-expression-match.md)
 
 ## About
 
