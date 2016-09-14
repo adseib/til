@@ -8,7 +8,6 @@ target = open("results.txt", "w")
 pattern = re.compile("^(A|B|C20|HC|INC|M|NY|PFA|S|SS|T|TI|625|825)*\-[0-9]{1,2}(0|1|M|F){1}[0-5]{1}\-[A-Z0-9]*\-?.*")
 
 for e, line in enumerate(open('strings.txt')):
-
 	
     for match in re.finditer(pattern, line):
 	
@@ -16,7 +15,6 @@ for e, line in enumerate(open('strings.txt')):
 		print 'Match Found:', match.groups(), line 
 		target.write (line)
 	
-
 target.close()
 ```
 
