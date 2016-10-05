@@ -5,8 +5,6 @@
 An attempt to organize and centralize things I have personally learnt and frequently forget. 
 
 
-_2 TILs and not really counting..._
-
 ---
 
 ### Categories
@@ -20,12 +18,12 @@ _2 TILs and not really counting..._
 
 ### SQL
 
-[Latest Date Record](sql/latest date record.md)
-[Time Difference](sql/time difference.md)
+- [Latest Date Record](sql/latest date record.md)
+- [Time Difference](sql/time difference.md)
 
 ### python
 
-[Regular Expression Iteration](python/regular-expression-match.md)
+- [Regular Expression Iteration](python/regular-expression-match.md)
 
 ## About
 
