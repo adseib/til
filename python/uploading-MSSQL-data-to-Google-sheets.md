@@ -1,14 +1,15 @@
 #Uploading SQL Query Data to Google Sheets
 
-Leveraging from Wesley Chun's excellent Google API tutorial, the sniipet below is a quick and dirty way to get an MSSQL query data on a GSheet.
+Leveraging from Wesley Chun's excellent Google API [tutorial](http://wescpy.blogspot.ca/2016/06/using-new-google-sheets-api.html), the snipet below is a quick and dirty way to get an MSSQL query data on a GSheet.
 pymsql does the heavy lifting on the MSSQL server side.
 
-Get OAuth credentials here: [source] https://developers.google.com/sheets/quickstart/python
-Save .JSON in source folder
-Insert server info
-Insert query
-Insert spreadsheetID
-Start publishing 
+Get OAuth credentials here: https://developers.google.com/sheets/quickstart/python
+
+Save .JSON in source folder.
+Insert server info.
+Insert query.
+Insert spreadsheetID.
+Start publishing.
 
 ```python
 '''sheets-toys.py -- Google Sheets API demo
@@ -49,4 +50,3 @@ for row in rows:
     print(row)
 ```
 
-[source] http://wescpy.blogspot.ca/2016/06/using-new-google-sheets-api.html
