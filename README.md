@@ -2,7 +2,7 @@
 
 > Today I Learned
 
-An attempt to organize and centralize things I have personally learnt and frequently forget. 
+An attempt to organize and centralize things I have personally discovered and frequently forget. 
 
 
 ---
@@ -11,7 +11,6 @@ An attempt to organize and centralize things I have personally learnt and freque
 
 * [sql](#sql)
 * [python](#python)
-
 
 
 ---
@@ -24,6 +23,7 @@ An attempt to organize and centralize things I have personally learnt and freque
 ### python
 
 - [Regular Expression Iteration](python/regular-expression-match.md)
+- [Uploading SQL Query Data to Google Sheets](python/uploading-MSSQL-data-to-Google-sheets.md)
 
 ## About
 

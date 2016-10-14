@@ -11,7 +11,7 @@ Where [DateColumn] between 'fromDate' and 'toDate'
 ```
 
 However becuase I often work with datetime but run dates without the time, there is [potential](http://stackoverflow.com/questions/5125076/sql-query-to-select-dates-between-two-dates) to end up with results from ```toDate 00:00:00.000```
-The following is a more specific
+The following is more specific:
 
 ```
 Select [DateColumn]
