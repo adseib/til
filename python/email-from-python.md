@@ -6,7 +6,7 @@ Add email to distributionlist.txt.
 
 Add email server creds.
 
-```python3
+```python
 from __future__ import print_function
 import time
 import getquery
