@@ -31,6 +31,8 @@ An attempt to organize and centralize things I have personally discovered and fr
 
 - [Emacs Cheatsheet](emacs/emacscheatsheet.md)
 
+---
+
 ## About
 
 Inspired by:
@@ -46,7 +48,7 @@ Inspired by:
 
 ## License
 
-&copy; 2015-2016 Andre Seib
+&copy; 2015-2017 Andre Seib
 
 This repository is licensed under the MIT license. See `LICENSE` for
 details.
