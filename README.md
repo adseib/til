@@ -2,12 +2,12 @@
 
 > Today I Learned
 
-An attempt to organize and centralize things I have personally discovered and frequently forget. 
+An attempt to organize and centralize things I have personally discovered and frequently forget.
 
 
 ---
 
-### Categories
+## Categories
 
 * [sql](#sql)
 * [python](#python)
@@ -17,13 +17,14 @@ An attempt to organize and centralize things I have personally discovered and fr
 
 ### SQL
 
-- [Latest Date Record](sql/latest date record.md)
-- [Time Difference](sql/time difference.md)
+- [Latest Date Record](sql/latest-date-record.md)
+- [Time Difference](sql/time-difference.md)
 
 ### python
 
 - [Regular Expression Iteration](python/regular-expression-match.md)
 - [Uploading SQL Query Data to Google Sheets](python/uploading-MSSQL-data-to-Google-sheets.md)
+- [Email from Python Script](python/email-from-pyhton.md)
 
 ## About
 
@@ -36,7 +37,7 @@ Inspired by:
 * [Today I Learned by Hashrocket](https://til.hashrocket.com)
 * [jwworth/til](https://github.com/jwworth/til)
 * [thoughtbot/til](https://github.com/thoughtbot/til)
-* [jbranchaud/til] (https://github.com/jbranchaud/til)
+* [jbranchaud/til](https://github.com/jbranchaud/til)
 
 ## License
 

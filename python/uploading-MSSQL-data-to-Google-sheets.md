@@ -42,10 +42,10 @@ rows = cursor.fetchall()
 data = {'values': [row[:2] for row in rows]}
 
 SHEETS.spreadsheets().values().update(spreadsheetId='SpreadsheetID',
-    range='Sales YTD!B13', body=data, valueInputOption='RAW').execute()
+    range='A1', body=data, valueInputOption='RAW').execute()
 print('Wrote data to Sheet:')
 rows = SHEETS.spreadsheets().values().get(spreadsheetId='SpreadsheetID',
-    range='Sales YTD').execute().get('values', [])
+    range='A1').execute().get('values', [])
 for row in rows:
     print(row)
 ```
