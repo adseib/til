@@ -18,8 +18,8 @@ An attempt to organize and centralize things I have personally discovered and fr
 
 ### SQL
 
-- [Latest Date Record](sql/latest date record.md)
-- [Time Difference](sql/time difference.md)
+- [Latest Date Record](sql/latest-date-record.md)
+- [Time Difference](sql/time-difference.md)
 
 ### Python
 
