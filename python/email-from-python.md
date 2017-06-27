@@ -1,8 +1,10 @@
 #Email from Python Script
 
-Create email.html
-Add email to distributionlist.txt
-Add email server creds
+Create email.html.
+
+Add email to distributionlist.txt.
+
+Add email server creds.
 
 ```python
 from __future__ import print_function
@@ -30,7 +32,7 @@ print ("Fetching Query")
 ##Encoders.encode_base64(part)
 ##part.add_header('Content-Disposition', 'attachment; filename="output.html"')
 
-#get markup and put in body of email 
+#get markup and put in body of email
 body = email.html
 
 #build email header

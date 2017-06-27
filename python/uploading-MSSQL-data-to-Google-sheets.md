@@ -6,9 +6,13 @@ pymsql does the heavy lifting on the MSSQL server side.
 Get OAuth credentials here: https://developers.google.com/sheets/quickstart/python
 
 Save .JSON in source folder.
+
 Insert server info.
+
 Insert query.
+
 Insert spreadsheetID.
+
 Start publishing.
 
 ```python
@@ -49,4 +53,3 @@ rows = SHEETS.spreadsheets().values().get(spreadsheetId='SpreadsheetID',
 for row in rows:
     print(row)
 ```
-

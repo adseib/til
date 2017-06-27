@@ -2,8 +2,9 @@ Just the basic getting around in Emacs
 Full ref card here:
 https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf
 
-C == Ctrl
-M == Alt
+C == Ctrl.
+
+M == Alt.
 
 | Command | Description |
 |---------|-------------|
