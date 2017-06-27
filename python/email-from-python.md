@@ -30,7 +30,7 @@ print ("Fetching Query")
 ##Encoders.encode_base64(part)
 ##part.add_header('Content-Disposition', 'attachment; filename="output.html"')
 
-#get query and put in body of email
+#get markup and put in body of email 
 body = email.html
 
 #build email header
