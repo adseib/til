@@ -1,4 +1,4 @@
-#SQL Date Range
+# SQL Date Range
 
 This is an example where a subselect and MAX operator to fetch the latest date.
 

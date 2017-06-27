@@ -1,4 +1,4 @@
-#Regular Expression Matching (Python 3)
+# Regular Expression Matching (Python 3)
 
 Match string via regular expression within strings.txt and and print enumerated list to results.txt
 

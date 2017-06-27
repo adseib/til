@@ -1,4 +1,4 @@
-#SQL Time Difference
+# SQL Time Difference
 
 To simplify date range lookup the between operator comes in handy
 
