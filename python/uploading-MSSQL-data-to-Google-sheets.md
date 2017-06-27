@@ -1,4 +1,4 @@
-#Uploading SQL Query Data to Google Sheets
+#Uploading SQL Query Data to Google Sheets (Python 3)
 
 Leveraging from Wesley Chun's excellent Google API [tutorial](http://wescpy.blogspot.ca/2016/06/using-new-google-sheets-api.html), the snipet below is a quick and dirty way to get an MSSQL query data on a GSheet.
 pymsql does the heavy lifting on the MSSQL server side.

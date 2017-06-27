@@ -2,7 +2,7 @@
 
 This is an example where a subselect and MAX operator to fetch the latest date.
 
-```
+```SQL
 SELECT         DiscountCode, EffectiveFrom, Discount
 FROM            PurchaseDiscountTable
 WHERE        (EffectiveFrom =

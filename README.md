@@ -18,8 +18,8 @@ An attempt to organize and centralize things I have personally discovered and fr
 
 ### SQL
 
-- [Latest Date Record](sql/latest-date-record.md)
-- [Time Difference](sql/time-difference.md)
+- [Latest Date Record](sql/latest date record.md)
+- [Time Difference](sql/time difference.md)
 
 ### Python
 
@@ -31,11 +31,13 @@ An attempt to organize and centralize things I have personally discovered and fr
 
 - [Emacs Cheatsheet](emacs/emacscheatsheet.md)
 
+---
+
 ## About
 
 Inspired by:
 
-[thoughtbot/til](https://github.com/thoughtbot/til).
+[thoughtbot/til](https://github.com/thoughtbot/til)
 
 ## Other TIL Collections
 
@@ -46,7 +48,7 @@ Inspired by:
 
 ## License
 
-&copy; 2015-2016 Andre Seib
+&copy; 2015-2017 Andre Seib
 
 This repository is licensed under the MIT license. See `LICENSE` for
 details.

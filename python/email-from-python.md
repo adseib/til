@@ -1,4 +1,4 @@
-#Email from Python Script
+#Email from Python Script (Python 3)
 
 Create email.html.
 
