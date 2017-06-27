@@ -27,7 +27,7 @@ An attempt to organize and centralize things I have personally discovered and fr
 - [Uploading SQL Query Data to Google Sheets](python/uploading-MSSQL-data-to-Google-sheets.md)
 - [Email from Python Script](python/email-from-python.md)
 
-###Emacs
+### Emacs
 
 - [Emacs Cheatsheet](emacs/emacscheatsheet.md)
 
