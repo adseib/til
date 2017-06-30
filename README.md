@@ -9,17 +9,24 @@ An attempt to organize and centralize things I have personally discovered and fr
 
 ## Categories
 
-* [sql](#sql)
-* [python](#python)
 * [emacs](#emacs)
+* [powershell](#powershell)
+* [python](#python)
+* [sql](#sql)
+
 
 
 ---
 
-### SQL
 
-- [Latest Date Record](sql/latest-date-record.md)
-- [Time Difference](sql/time-difference.md)
+
+### Emacs
+
+- [Emacs Cheatsheet](emacs/emacscheatsheet.md)
+
+### Powershell
+
+- [Windows Environment Setup](powershell/windows-environment-setup.md)
 
 ### Python
 
@@ -27,9 +34,10 @@ An attempt to organize and centralize things I have personally discovered and fr
 - [Uploading SQL Query Data to Google Sheets](python/uploading-MSSQL-data-to-Google-sheets.md)
 - [Email from Python Script](python/email-from-python.md)
 
-### Emacs
+### SQL
 
-- [Emacs Cheatsheet](emacs/emacscheatsheet.md)
+- [Latest Date Record](sql/latest-date-record.md)
+- [Time Difference](sql/time-difference.md)
 
 ---
 
