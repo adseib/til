@@ -26,6 +26,7 @@ An attempt to organize and centralize things I have personally discovered and fr
 
 ### Powershell
 
+- [Basic Commands](powershell/powershell_basics.md)
 - [Windows Environment Setup](powershell/windows-environment-setup.md)
 
 ### Python
