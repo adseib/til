@@ -81,3 +81,24 @@ _Your prompt will now be prefixed with the name of your environment, in this cas
 _This prefix lets us know that the environment my_\__env_ _is currently active, meaning that when we create programs here they will use only this particular environment’s settings and packages._
 
 [Source](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-local-programming-environment-on-windows-10)
+
+#### virtualenvwrapper
+
+```
+$ pip install virtualenvwrapper-win
+```
+_Activate Shell Functions_
+
+_Get path_
+
+```
+$ which virtualenvwrapper.sh
+```
+
+_Add the following to shell startup file:_
+
+```
+export WORKON_HOME=$HOME/.virtualenvs   # optional
+export PROJECT_HOME=$HOME/projects      # optional
+source /usr/local/bin/virtualenvwrapper.sh
+```
