@@ -28,7 +28,7 @@ An attempt to organize and centralize things I have personally discovered and fr
 
 - [Basic Commands](powershell/powershell_basics.md)
 - [Windows Environment Setup](powershell/windows-environment-setup.md)
-- [Manage Active Directory](powershel/AD-management.md)
+- [Manage Active Directory](powershell/AD-management.md)
 
 ### Python
 
