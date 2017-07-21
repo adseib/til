@@ -31,3 +31,11 @@ From [Table].[DateColumn]
 
 Where [DateColumn] between 'fromDate' and 'toDate 23:59:59.999'
 ```
+
+### More Date stuff
+
+How about data from the same date last year?
+
+```SQL
+SELECT DATEADD(year,-1,GETDATE())
+```
