@@ -18,7 +18,7 @@ import seaborn as sb
 rcParams['figure.figsize'] = 10, 10
 sb.set_style('whitegrid')
 
-address = 'C:/filename.csv'
+address = 'files/filename.csv'
 data = pd.read_csv(address)
 
 data.columns = ['column1', 'column2', 'column3', 'column4']
