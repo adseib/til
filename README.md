@@ -36,7 +36,7 @@ An attempt to organize and centralize things I have personally discovered and fr
 - [Uploading SQL Query Data to Google Sheets](python/uploading-MSSQL-data-to-Google-sheets.md)
 - [Email from Python Script](python/email-from-python.md)
 - [DataFrame from CSV File](python/dataframe-from-csv.md)
-- [Plotting from a DataFrame](pyhton/plotting-from-dataframe.md)
+- [Plotting from a DataFrame](python/plotting-from-dataframe.md)
 
 ### SQL
 
