@@ -15,7 +15,7 @@ data.columns = ['column1', 'column2', 'column3', 'column4']
 #Output head of DataFrame
 data.head()
 ```
-![alt text](images/data-head.PNG "data.head output")
+![alt text](images/data-head.png "data.head output")
 
 ```Python
 #Check for missing values
