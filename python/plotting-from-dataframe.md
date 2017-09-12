@@ -1,6 +1,6 @@
-# Plotting from a Dataframe
+# Plotting from a Data Frame
 
-A few simple datavisuals using Seaborn and Matplotlib.
+A few simple data visuals using Seaborn and Matplotlib.
 
 ```python
 import numpy as np

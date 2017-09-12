@@ -1,8 +1,8 @@
-# Creating and Modifying a Dataframe from a CSV file
+# Creating and Modifying a Data Frame from a CSV file
 
 Grab the file and name columns.
 
-```Python
+```python
 import numpy as np
 import pandas as pd
 from pandas import Series, DataFrame
@@ -12,12 +12,12 @@ data = pd.read_csv(address)
 
 data.columns = ['column1', 'column2', 'column3', 'column4']
 
-#Output head of DataFrame
+#Output head of Data Frame
 data.head()
 ```
 ![alt text](images/data-head.png "data.head output")
 
-```Python
+```python
 #Check for missing values
 data.isnull()
 
@@ -28,15 +28,17 @@ data.isnull().sum()
 
 ```python
 #Use fillna to replace null values if required
-data_nonull= data.fillna(0)
+data_nonull = data.fillna(0)
 data_nonull
 ```
 
 Group by any column:
 
-```Python
+```python
 data_group = data.groupby(data['column1'])
 #Print out the average, min, max, or median value for each group.
 data_group.mean()
 ```
 ![alt text](images/dataframe-grouped.PNG "dataframe grouped output")
+
+[Pandas Documentation on Data Frame](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html)

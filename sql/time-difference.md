@@ -1,6 +1,6 @@
 # SQL Time Difference
 
-To simplify date range lookup the between operator comes in handy
+To simplify date range lookup the 'BETWEEN' operator comes in handy
 
 ```SQL
 Select [DateColumn]
