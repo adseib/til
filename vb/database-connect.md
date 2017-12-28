@@ -2,7 +2,7 @@
 
 First add ADO object reference.
 
-![ADO reference](images/refernces.gif "ADO reference")
+![ADO reference](images/references.gif "ADO reference")
 
 For the following you will need:
 
