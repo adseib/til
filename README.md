@@ -2,7 +2,7 @@
 
 > Today I Learned
 
-An attempt to organize and centralize things I have personally discovered and frequently forget.
+An attempt to organize and centralize snippets which I have personally discovered and might find useful again later.
 
 
 ---
@@ -13,8 +13,7 @@ An attempt to organize and centralize things I have personally discovered and fr
 * [powershell](#powershell)
 * [python](#python)
 * [sql](#sql)
-
-
+* [vb](#vb)
 
 ---
 
@@ -44,6 +43,10 @@ An attempt to organize and centralize things I have personally discovered and fr
 - [Time Difference](sql/time-difference.md)
 - [User Tables with Foreign Key Constraint](sql/create-user-table-with-foreign-key.md)
 
+### VBA
+
+- [Database Connection](vb/datbase-connect.md)
+
 ---
 
 ## About
@@ -61,7 +64,7 @@ Inspired by:
 
 ## License
 
-&copy; 2015-2017 Andre Seib
+&copy; 2015-2018 Andre Seib
 
 This repository is licensed under the MIT license. See `LICENSE` for
 details.
