@@ -1,20 +1,18 @@
 # Connecting to a data source using ActiveX Data Objects (ADO) in Microsoft Office
 
-First add ADO object reference.
+First add ADO object reference, Microsoft ActiveX Data Objects 2.8 Library from the Tools menu.
 
 ![ADO reference](images/references.gif "ADO reference")
 
 For the following you will need:
+
+-Provider (I am using SQLOLEDB)
 
 -Data Source Name
 
 -User ID
 
 -Password
-
--Initial Catalog (optional)
-
--Workstation ID (optional is server does not restrict)
 
 ```
 
@@ -33,7 +31,7 @@ SourceSheet = "Master Worksheet"
     WorkBookName = "Output"
 
 
-    ConnectionString = "Provider=SQLOLEDB.1;Password=****;Persist Security Info=True;User ID=****;Initial Catalog=s****;Data Source=****;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=****;Use Encryption for Data=False;Tag with column collation when possible=False"
+    ConnectionString = "Provider=SQLOLEDB.1;Password=****;Persist Security Info=True;User ID=****;Data Source=****;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Use Encryption for Data=False;Tag with column collation when possible=False"
 
 
     cnn.Open ConnectionString
