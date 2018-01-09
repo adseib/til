@@ -42,6 +42,7 @@ An attempt to organize and centralize snippets which I have personally discovere
 - [Latest Date Record](sql/latest-date-record.md)
 - [Time Difference](sql/time-difference.md)
 - [User Tables with Foreign Key Constraint](sql/create-user-table-with-foreign-key.md)
+- [Find Fractional Balance](sql/find-fractional-balance.md)
 
 ### VBA
 
