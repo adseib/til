@@ -44,7 +44,7 @@ An attempt to organize and centralize snippets which I have personally discovere
 - [User Tables with Foreign Key Constraint](sql/create-user-table-with-foreign-key.md)
 - [Find Fractional Balance](sql/find-fractional-balance.md)
 - [Find a Record Function](sql/is-this-the-record.md)
-- [Select from Filtered Table](select-from-case-statement.md)
+- [Select from Filtered Table](sql/select-from-case-statement.md)
 
 ### VBA
 
