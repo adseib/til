@@ -14,7 +14,7 @@ for e, line in enumerate(open('strings.txt')):
 
     for match in re.finditer(pattern, line):
         if match:
-            print ()'Match Found:', match.groups(), line)
+            print ('Match Found:', match.groups(), line)
             target.write (line)
 
 target.close()

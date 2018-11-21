@@ -1,6 +1,6 @@
 # SQL Date Range
 
-This is an example where a subselect and MAX operator to fetch the latest date.
+This is an example where a sub-select and MAX operator is used to fetch the latest date.
 
 ```SQL
 SELECT         DiscountCode, EffectiveFrom, Discount
