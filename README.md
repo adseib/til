@@ -13,7 +13,7 @@ An attempt to organize and centralize snippets which I have personally discovere
 * [powershell](#powershell)
 * [python](#python)
 * [sql](#sql)
-* [vb](#vb)
+* [vba](#vba)
 
 ---
 
@@ -49,7 +49,7 @@ An attempt to organize and centralize snippets which I have personally discovere
 
 ### VBA
 
-- [Database Connection](vb/datbase-connect.md)
+- [Database Connection](vb/database-connect.md)
 
 ---
 
