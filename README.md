@@ -45,6 +45,7 @@ An attempt to organize and centralize snippets which I have personally discovere
 - [Find Fractional Balance](sql/find-fractional-balance.md)
 - [Find a Record Function](sql/is-this-the-record.md)
 - [Select from Filtered Table](sql/select-from-case-statement.md)
+- [Except Set Operator](sql/except.md)
 
 ### VBA
 
@@ -67,7 +68,7 @@ Inspired by:
 
 ## License
 
-&copy; 2015-2018 Andre Seib
+&copy; 2015-2019 Andre Seib
 
 This repository is licensed under the MIT license. See `LICENSE` for
 details.
