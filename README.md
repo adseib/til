@@ -25,7 +25,7 @@ An attempt to organize and centralize snippets which I have personally discovere
 
 ### Powershell
 
-- [Basic Commands](powershell/powershell_basics.md)
+- [Basic Commands](powershell/powershell-basics.md)
 - [Windows Environment Setup](powershell/windows-environment-setup.md)
 - [Manage Active Directory](powershell/AD-management.md)
 

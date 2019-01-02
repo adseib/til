@@ -30,4 +30,4 @@ From [Table1].[Items]
 Where Year[DateSold] = Year(Current_Date)-1
 Group By [Items]
 ```
-This way I get the total quantity sold for all years, but only items that where not sold last year.
+This way I get the total quantity sold for all years, but only items that were not sold last year. (Seems like an arbitrary example but in my head it illustrates the power of using exception instead of filtering with subqueries)

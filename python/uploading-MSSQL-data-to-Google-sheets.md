@@ -5,13 +5,13 @@ pymsql does the heavy lifting on the MSSQL server side.
 
 Get OAuth credentials here: https://developers.google.com/sheets/quickstart/python
 
-Save .JSON in source folder.
+Save .JSON in source folder
 
-Insert server info.
+1 Insert server info
 
-Insert query.
+2 Insert query
 
-Insert spreadsheetID.
+3 Insert spreadsheetID
 
 Start publishing.
 
@@ -38,17 +38,20 @@ if not creds or creds.invalid:
     creds = tools.run_flow(flow, store)
 SHEETS = discovery.build('sheets', 'v4', http=creds.authorize(Http()))
 
-
+#1 Insert server info
 conn = pymssql.connect(server='', user='', password='', database='')
 cursor = conn.cursor()
+
+#2 Insert query
 cursor.execute('SELECT * FROM ;')
 rows = cursor.fetchall()
 data = {'values': [row[:2] for row in rows]}
 
-SHEETS.spreadsheets().values().update(spreadsheetId='SpreadsheetID',
+# 3 Insert spreadsheetID
+SHEETS.spreadsheets().values().update(spreadsheetId='SpreadsheetID string',
     range='A1', body=data, valueInputOption='RAW').execute()
 print('Wrote data to Sheet:')
-rows = SHEETS.spreadsheets().values().get(spreadsheetId='SpreadsheetID',
+rows = SHEETS.spreadsheets().values().get(spreadsheetId='SpreadsheetID string',
     range='A1').execute().get('values', [])
 for row in rows:
     print(row)
