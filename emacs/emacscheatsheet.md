@@ -129,7 +129,8 @@ Emacs init
 ```
 Emacs packages
 
-|-----------------|
+| Package Name and Version|
+|-------------------------|
 |async-20181224.454|
 |buffer-flip-2.1|
 |dad-joke-20170928.658|
@@ -140,7 +141,7 @@ Emacs packages
 |magit-20190104.1519|
 |magit-popup-20181204.2031|
 |markdown-mode-20181229.1430|
-|org-9.2||
+|org-9.2|
 |with-editor-20181113.1845|
 |zone-rainbow-20160120.1334|
 |zone-sl-20160201.1210|
