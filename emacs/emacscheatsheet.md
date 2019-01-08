@@ -129,17 +129,18 @@ Emacs init
 ```
 Emacs packages
 
-async-20181224.454
-buffer-flip-2.1
-dad-joke-20170928.658
-dash-20180910.1856
-fireplace-20181211.1927
-git-commit-20190102.107
-gitconfig-1.0.0
-magit-20190104.1519
-magit-popup-20181204.2031
-markdown-mode-20181229.1430
-org-9.2
-with-editor-20181113.1845
-zone-rainbow-20160120.1334
-zone-sl-20160201.1210
+|-----------------|
+|async-20181224.454|
+|buffer-flip-2.1|
+|dad-joke-20170928.658|
+|dash-20180910.1856|
+|fireplace-20181211.1927|
+|git-commit-20190102.107|
+|gitconfig-1.0.0|
+|magit-20190104.1519|
+|magit-popup-20181204.2031|
+|markdown-mode-20181229.1430|
+|org-9.2||
+|with-editor-20181113.1845|
+|zone-rainbow-20160120.1334|
+|zone-sl-20160201.1210|
