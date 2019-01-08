@@ -58,17 +58,29 @@ Shell
 
 Magit
 
+| Command | Description |
+|---------|-------------|
 | M-x magit-status| Repo status (Remapped to C-x g)|
 | s | Stage |
 | u | Unstage|
 | c | Commit |
 | p | Push |
+
 Modes
 
+| Command | Description |
+|---------|-------------|
 | M-x text-mode |
 | M-x org-mode| Organizational mode |
 | M-x sql-mode| SQL ANSI mode | 
 
+Zoning
+
+| Command | Description |
+|---------|-------------|
+| M-x zone-sl | loco |
+| M-x zone-rainbow | rainbow |
+| M-x fireplace | a cozy fire |
 
 Emacs init
 
