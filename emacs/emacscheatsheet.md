@@ -30,22 +30,28 @@ M == Alt
 | C-x | search |
 | C-x b | select buffer |
 | C-x K | kill buffer |
-| M-x list-packages | List packages available to install |
+| M-x list-packages | list packages available to install |
 | C-x C-c | exit Emacs |
 
 Folder Navigation
 
-| d | Mark for deletion
+| Command | Description |
+|---------|-------------|
+| d | Mark for deletion |
 | u | Unmark | 
 | x | Delete File(s) |
 
 Spelling
 
+| Command | Description |
+|---------|-------------|
 | M-$ | Spell check selection |
 | M-x ispell-buffer | Spell check entire buffer |
 
 Shell
 
+| Command | Description |
+|---------|-------------|
 | M-x shell | New shell |
 | C-u M-x  | Additional new shell|
 | C-up | Previous command |
@@ -57,7 +63,6 @@ Magit
 | u | Unstage|
 | c | Commit |
 | p | Push |
-
 Modes
 
 | M-x text-mode |
