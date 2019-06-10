@@ -125,13 +125,16 @@ Shell
 
 Magit
 
-| Command | Description |
-|---------|-------------|
-| M-x magit-status| Repo status (Remapped to C-x g)|
-| s | Stage |
-| u | Unstage|
-| c | Commit |
-| p | Push |
+| Command          | Description                     |
+|------------------+---------------------------------|
+| M-x magit-status | Repo status (Remapped to C-x g) |
+| s                | Stage                           |
+| u                | Unstage                         |
+| c                | Commit                          |
+| C-c C-c          | Add commit message              |
+| p                | Push                            |
+| M-x magit-init   | Initialize repo                 |
+| M-x magit-clone  | Clone repo                      |
 
 Modes
 
@@ -152,63 +155,80 @@ Zoning
 Emacs init
 
 ```
+;Various
+(setq-default major-mode 'text-mode)
+(add-hook 'text-mode-hook 'turn-on-visual-line-mode)
+(set-default 'truncate-lines t)
+(add-to-list 'load-path "~/.emacs.d/lisp/")
 
-;(desktop-save-mode l)
-;(setq create-lockfiles nil)
+;Save files
 (setq backup-directory-alist `(("." . "~/.saves")))
 
+;Markdown preview tool (does this work?)
+(setq markdown-command "C:/Users/andre/AppData/Local/Pandoc/pandoc.exe")
 
 ;Keybindings
 (global-set-key (kbd "C-x g") 'magit-status)
 
-;Use Aspell
+;;Org
+(global-set-key (kbd "C-c l") 'org-store-link)
+(global-set-key (kbd "C-c a") 'org-agenda)
+(global-set-key (kbd "C-c c") 'org-capture)
+
+;Use Aspell for spell check
 (add-to-list 'exec-path "C:/Program Files (x86)/Aspell/bin/")
 (setq ispell-program-name "aspell")
 (setq ispell-personal-dictionary "C:/path/to/your/.ispell")
 (require 'ispell)
 
-;;MELPA (Stable)
+(add-hook 'text-mode-hook 'flyspell-mode)
+(add-hook 'prog-mode-hook 'flyspell-prog-mode)
+
+;;MELPA (Stable) 
 (require 'package)
 (add-to-list 'package-archives
-             '("melpa-stable" . "http://stable.melpa.org/packages/") t)
+	     '("melpa" . "http://melpa.milkbox.net/packages/")
+             ;;'("melpa-stable" . "http://stable.melpa.org/packages/")
+	     t)
+
+(autoload 'gmail2bbdb-import-file "gmail2bbdb" nil t nil)
 
 ;; Added by Package.el.  
 (package-initialize)
 
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(custom-enabled-themes (quote (tango-dark)))
- '(display-time-mode t)
- '(package-selected-packages
-   (quote
-    (buffer-flip gitconfig ## zone-sl zone-rainbow magit dad-joke fireplace markdown-mode org)))
- '(tool-bar-mode nil))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
-
 ```
-Emacs packages
+Packages
 
-| Package Name and Version|
-|-------------------------|
-|async-20181224.454|
-|buffer-flip-2.1|
-|dad-joke-20170928.658|
-|dash-20180910.1856|
-|fireplace-20181211.1927|
-|git-commit-20190102.107|
-|gitconfig-1.0.0|
-|magit-20190104.1519|
-|magit-popup-20181204.2031|
-|markdown-mode-20181229.1430|
-|org-9.2|
-|with-editor-20181113.1845|
-|zone-rainbow-20160120.1334|
-|zone-sl-20160201.1210|
+
+| Package Name and Version | Version       | Status     | Desc.                                                  |
+|--------------------------|---------------|------------|--------------------------------------------------------|
+| atom-dark-theme          | 20181022.1602 | installed  | An Emacs port of the Atom Dark theme from Atom.io.     |
+| buffer-flip              | 2.1           | installed  | Cycle through buffers like Alt-Tab in Windows          |
+| cl-generic               | 0.3           | installed  | Forward cl-generic compatibility for Emacs<25          |
+| exwm                     | 0.22          | installed  | Emacs X Window Manager                                 |
+| fireplace                | 20181211.1927 | installed  | A cozy fireplace for emacs                             |
+| fsm                      | 0.2.1         | installed  | state machine library                                  |
+| gitconfig                | 1.0.0         | installed  | Emacs lisp interface to work with git-config variables |
+| gitter                   | 1             | installed  | An Emacs Gitter client                                 |
+| gmail2bbdb               | 20170423.1144 | installed  | import email and name into bbdb from vcard.            |
+| jabber                   | 20180927.2325 | installed  | import email and name into bbdb from vcard.            |
+| jabber                   | 20180927.2325 | installed  | A Jabber client for Emacs.                             |
+| leuven-theme             | 20190107.1035 | installed  | Awesome Emacs color theme on white background          |
+| magit                    | 20190104.1519 | installed  | A Git porcelain inside Emacs.                          |
+| markdown-mode            | 20181229.1430 | installed  | Major mode for Markdown-formatted text                 |
+| org                      | 9.2           | installed  | Outline-based notes management and organizer           |
+| srv                      | 20180715.1959 | installed  | perform SRV DNS requests                               |
+| sublimity                | 20160629      | installed  | smooth-scrolling, minimap and distraction-free mode    |
+| w3m                      | 20181022.855  | installed  | an Emacs interface to w3m                              |
+| xkcd                     | 1.1           | installed  | View xkcd from Emacs                                   |
+| xterm-color              | 1.7           | installed  | ANSI & XTERM 256 color support                         |
+| zone-rainbow             | 20160120.1334 | installed  | Zone out with rainbow                                  |
+| zone-sl                  | 20160201.1210 | installed  | Zone out with steam locomotives.                       |
+| async                    | 20181224.454  | dependency | Asynchronous processing in Emacs                       |
+| dash                     | 20180910.1856 | dependency | A modern list library for Emacs                        |
+| git-commit               | 20190102.107  | dependency | Edit Git commit messages                               |
+| magit-popup              | 20181204.2031 | dependency | Define prefix-infix-suffix command combos              |
+| moz                      | 20150805.1706 | dependency | Lets current buffer interact with inferior mozilla.    |
+| popwin                   | 20150315.1300 | dependency | Popup Window Manager.                                  |
+| with-editor              | 20181113.1845 | dependency | Use the Emacsclient as $EDITOR                         |
+| xelb                     | 0.17          | dependency | X protocol Emacs Lisp Binding                          |
