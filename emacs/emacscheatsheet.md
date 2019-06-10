@@ -2,51 +2,118 @@
 # Emacs Quick Reference
 
 Just the basic getting around in Emacs
-Full ref card here:
+More inclusive reference card here:
 https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf
 
 C == Ctrl
 
 M == Alt
 
-| Command | Description |
-|---------|-------------|
-| C-g | Abort!|
-| C-f | character forward |
-| C-b | character Backward |
-| C-n | line forward |
-| C-p | line previous |
-| C-SPC | mark |
-| C-W | cut |
-| M-W | copy |
-| C-y | yank/paste |
-| C-x C-f | open file |
-| C-x C-s | save file |
-| C-x C-w | save as |
-| C-x 1 | one window on current buffer |
-| C-x 2 | split window vertically |
-| C-x 3 | split window horizontally |
-| C-x o | switch to other window |
-| C-x | search |
-| C-x b | select buffer |
-| C-x K | kill buffer |
+| Command           | Description                        |
+|-------------------+------------------------------------|
+| C-g               | Abort!                             |
+| C-f               | character forward                  |
+| C-b               | character Backward                 |
+| C-n               | line forward                       |
+| C-p               | line previous                      |
+| C-v               | page down                          |
+| C-M-v             | next buffer page down              |
+| C-SPC             | mark                               |
+| C-W               | cut                                |
+| M-W               | copy                               |
+| C-y               | yank/paste                         |
+| C-x C-f           | open file                          |
+| C-x C-s           | save file                          |
+| C-x C-w           | save as                            |
+| C-x 1             | one window on current buffer       |
+| C-x 2             | split window vertically            |
+| C-x 3             | split window horizontally          |
+| C-x o             | switch to other window             |
+| C-x               | search                             |
+| C-x b             | select buffer                      |
+| C-x K             | kill buffer                        |
 | M-x list-packages | list packages available to install |
-| C-x C-c | exit Emacs |
+| C-x C-c           | exit Emacs                         |
+| C-h i             | Info browser                       |
 
-Folder Navigation
+| Info Browser Nav | Description |
+|------------------+-------------|
+| u                | Up          |
+| n                | Next        |
+| p                | Previous    |
 
-| Command | Description |
-|---------|-------------|
-| d | Mark for deletion |
-| u | Unmark | 
-| x | Delete File(s) |
+| Buffer Commands       | Description                               |
+|-----------------------+-------------------------------------------|
+| M-x kill-some-buffers | Kills buffers (but asks for confirmation) |
+|                       |                                           |
+
+Org
+
+| Command        | Description                          |
+|----------------+--------------------------------------|
+| M-RET          | New heading                          |
+| M-RET          | New heading at end                   |
+| TAB            | Cycle headings                       |
+| S-TAB          | Cycle global (Overview-Contents-All) |
+| M-LEFT         | Promote heading                      |
+| M-S-LEFT       | Promote subtree                      |
+| M-Down         | Move subtree down                    |
+| C-c ^          | Sort                                 |
+| C-c n s        | Narrow to subtree                    |
+| C-c C-t        | TODO state                           |
+| C-c .          | Insert Date                          |
+| M-x org-agenda | Agenda dispatcher                    |
+| C-c .          | Add date (S-left to pick day         |
+| C-c C-x C-w    | Cut subtree                          |                             
+
+| Command (Global) | Description    |
+|------------------+----------------|
+| C-c c            | Org capture    |
+| C-c a            | Org agenda     |
+| C-c l            | Org store link |
+
+Folder Navigation (Directory Editor)
+
+| Command | Description               |
+|---------+---------------------------|
+| C-x d   | Open Directory            |
+| C-x 4 d | Directory in other frame  |
+| C-x 5 d | Directory in other window |
+| q       | close window              |
+| d       | Mark for deletion         |
+| u       | Unmark                    |
+| x       | Delete File(s)            |
+| C       | Copy File(s)              |
+| D       | Delete                    |
+| +       | Make directory            |
+| C-x C-q | Edit file/folder names    |
+
+Gnus
+
+| Command   | Description                                          |
+|-----------+------------------------------------------------------|
+| M-guns    | Start Gnus                                           |
+| L         | List all email groups (From cache. Use AA otherwise) |
+| u         | Subscribe to group                                   |
+| g         | Refresh                                              |
+| q         | Quit                                                 |
+| R         | Reply with quote (r without)                         |
+| S W       | Wide Reply with quoted text                          |
+| C-c C-c   | Send message                                         |
+| B-del     | Delete article/email                                 |
+| B-m       | Move article/email                                   |
+| C-c RET f | Attach file                                          |
 
 Spelling
 
-| Command | Description |
-|---------|-------------|
-| M-$ | Spell check selection |
+| Command           | Description               |
+|-------------------+---------------------------|
+| M-$               | Spell check selection     |
 | M-x ispell-buffer | Spell check entire buffer |
+| <SPC>             | Skip this word            |
+| a                 | Accept word               |
+| A                 | Accept word this buffer   |
+| r                 | Replace                   |
 
 Shell
 
