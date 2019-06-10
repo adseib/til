@@ -10,7 +10,7 @@ C == Ctrl
 M == Alt
 
 | Command           | Description                        |
-|-------------------+------------------------------------|
+|-------------------|------------------------------------|
 | C-g               | Abort!                             |
 | C-f               | character forward                  |
 | C-b               | character Backward                 |
@@ -37,20 +37,20 @@ M == Alt
 | C-h i             | Info browser                       |
 
 | Info Browser Nav | Description |
-|------------------+-------------|
+|------------------|-------------|
 | u                | Up          |
 | n                | Next        |
 | p                | Previous    |
 
 | Buffer Commands       | Description                               |
-|-----------------------+-------------------------------------------|
+|-----------------------|-------------------------------------------|
 | M-x kill-some-buffers | Kills buffers (but asks for confirmation) |
 |                       |                                           |
 
 Org
 
 | Command        | Description                          |
-|----------------+--------------------------------------|
+|----------------|--------------------------------------|
 | M-RET          | New heading                          |
 | M-RET          | New heading at end                   |
 | TAB            | Cycle headings                       |
@@ -75,7 +75,7 @@ Org
 Folder Navigation (Directory Editor)
 
 | Command | Description               |
-|---------+---------------------------|
+|---------|---------------------------|
 | C-x d   | Open Directory            |
 | C-x 4 d | Directory in other frame  |
 | C-x 5 d | Directory in other window |
@@ -91,7 +91,7 @@ Folder Navigation (Directory Editor)
 Gnus
 
 | Command   | Description                                          |
-|-----------+------------------------------------------------------|
+|-----------|------------------------------------------------------|
 | M-guns    | Start Gnus                                           |
 | L         | List all email groups (From cache. Use AA otherwise) |
 | u         | Subscribe to group                                   |
@@ -107,7 +107,7 @@ Gnus
 Spelling
 
 | Command           | Description               |
-|-------------------+---------------------------|
+|-------------------|---------------------------|
 | M-$               | Spell check selection     |
 | M-x ispell-buffer | Spell check entire buffer |
 | <SPC>             | Skip this word            |
@@ -126,7 +126,7 @@ Shell
 Magit
 
 | Command          | Description                     |
-|------------------+---------------------------------|
+|------------------|---------------------------------|
 | M-x magit-status | Repo status (Remapped to C-x g) |
 | s                | Stage                           |
 | u                | Unstage                         |
