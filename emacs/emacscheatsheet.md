@@ -67,7 +67,7 @@ Org
 | C-c C-x C-w    | Cut subtree                          |                             
 
 | Command (Global) | Description    |
-|------------------+----------------|
+|------------------|----------------|
 | C-c c            | Org capture    |
 | C-c a            | Org agenda     |
 | C-c l            | Org store link |

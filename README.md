@@ -18,7 +18,6 @@ An attempt to organize and centralize snippets which I have personally discovere
 ---
 
 
-
 ### Emacs
 
 - [Emacs Cheatsheet](emacs/emacscheatsheet.md)
