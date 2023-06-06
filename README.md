@@ -2,7 +2,7 @@
 
 > Today I Learned
 
-An attempt to organize and centralize snippets which I have personally discovered and might find useful again later.
+An attempt to organize and centralize snippets which I have discovered and might find useful again later.
 
 
 ---
@@ -45,6 +45,7 @@ An attempt to organize and centralize snippets which I have personally discovere
 - [Find a Record Function](sql/is-this-the-record.md)
 - [Select from Filtered Table](sql/select-from-case-statement.md)
 - [Except Set Operator](sql/except.md)
+- [PostgreSQL Dates](sql/postgress_dates.md)
 
 ### VBA
 
@@ -62,12 +63,11 @@ Inspired by:
 
 * [Today I Learned by Hashrocket](https://til.hashrocket.com)
 * [jwworth/til](https://github.com/jwworth/til)
-* [thoughtbot/til](https://github.com/thoughtbot/til)
 * [jbranchaud/til](https://github.com/jbranchaud/til)
 
 ## License
 
-&copy; 2015-2019 Andre Seib
+&copy; 2023 Andre Seib
 
 This repository is licensed under the MIT license. See `LICENSE` for
 details.
