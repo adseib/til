@@ -45,7 +45,7 @@ An attempt to organize and centralize snippets which I have discovered and might
 - [Find a Record Function](sql/is-this-the-record.md)
 - [Select from Filtered Table](sql/select-from-case-statement.md)
 - [Except Set Operator](sql/except.md)
-- [PostgreSQL Dates](sql/postgress_dates.md)
+- [PostgreSQL Dates](sql/postgres_dates.md)
 
 ### VBA
 
